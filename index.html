@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <meta name="description" content="Webpage">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+
+    
+    <script src="jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  
+  <body>
+  <div class="buttonDiv"><a href="#" class="btn btn-danger col-md-4 col-md-offset-4" id="openButton">Open Market</a></div>
+    <div class="container">
+
+      <div class="market well well-lg">
+        <h1>Market</h1>
+
+        <div class="fruitmarket well well-sm">
+          <img src="apple.png"/><br>
+          <label></label>
+          <div id="applePrice"></div>
+          <a href="#" class="btn btn-success appleButton">Buy</a>
+        </div>
+
+        <div class="fruitmarket well well-sm">
+          <img src="orange.png"/><br>
+          <label></label>
+          <div id="orangePrice"></div>
+          <a href="#" class="btn btn-success orangeButton">Buy</a>
+        </div>
+
+        <div class="fruitmarket well well-sm">
+          <img src="bananas.png"/><br>
+          <label></label>
+          <div id="bananaPrice"></div>
+          <a href="#" class="btn btn-success bananaButton">Buy</a>
+        </div>
+
+        <div class="fruitmarket well well-sm">
+          <img src="pear.png"/><br>
+          <label></label>
+          <div id="pearPrice"></div>
+          <a href="#" class="btn btn-success pearButton">Buy</a>
+        </div>
+      </div>
+
+      <div class="userDisplay well well-lg">
+        <h1>Basket</h1>
+
+        <div class="fruitBasket well well-sm">
+          <label>Apple</label>
+          <div id="appleCount"></div>
+          <div id="avgApplePrice"></div>
+          <a href="#" class="btn btn-warning sellApple">Sell</a>
+        </div>
+
+        <div class="fruitBasket well well-sm">
+          <label>Orange</label>
+          <div id="orangeCount"></div>
+          <div id="avgOrangePrice"></div>
+          <a href="#" class="btn btn-warning sellOrange">Sell</a>
+        </div>
+
+        <div class="fruitBasket well well-sm">
+          <label>Banana</label>
+          <div id="bananaCount"></div>
+          <div id="avgBananaPrice"></div>
+          <a href="#" class="btn btn-warning sellBanana">Sell</a>
+        </div>
+
+        <div class="fruitBasket well well-sm">
+          <label>Pear</label>
+          <div id="pearCount"></div>
+          <div id="avgPearsPrice"></div>
+          <a href="#" class="btn btn-warning sellPear">Sell</a>
+        </div>
+
+        <div class="cash">
+          <div id="totalCash"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </body>
+</html>
